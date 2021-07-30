@@ -8,7 +8,7 @@
     "build": "rm -rf lib && tsc",
     "postbuild": "npm run format",
     "format": "prettier --write \"lib/*\"",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add . && git commit -m 'docs(changelog): update changelog"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add . && git commit -m 'docs(changelog): update changelog'"
   },
   "husky": {
     "hooks": {
