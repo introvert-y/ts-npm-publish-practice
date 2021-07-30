@@ -1,0 +1,31 @@
+{
+  "name": "ts-npm-publish-practice",
+  "version": "1.0.0",
+  "description": "typescript编码转为js编码再发布",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf lib && tsc",
+    "postbuild": "npm run format",
+    "format": "prettier --write \"lib/*\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5",
+    "husky": "^4.2.5",
+    "lint-staged": ">=10"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write \"src/*\""
+  }
+}
