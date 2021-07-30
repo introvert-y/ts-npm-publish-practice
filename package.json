@@ -11,7 +11,8 @@
     "pre-commit": "lint-staged --allow-empty",
     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
     "pre-push": "npm run changelog",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add . && git commit -m 'docs(changelog): update changelog'"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add . && git commit -m 'docs(changelog): update changelog'",
+    "prepare": "husky install"
   },
   "files": [
     "lib/**/*"
