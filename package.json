@@ -20,12 +20,22 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "^2.3.2",
-    "typescript": "^4.3.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "ghooks": "^2.0.4",
     "husky": "^4.2.5",
-    "lint-staged": ">=10"
+    "lint-staged": ">=10",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write \"src/*\""
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

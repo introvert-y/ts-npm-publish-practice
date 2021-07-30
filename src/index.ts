@@ -3,8 +3,8 @@ type domainMap = {
 };
 
 const ercpDomainMap: domainMap = {
-     common_web: 'www.qq.com',
-     domain: 'www.baidu.com',
+  common_web: 'www.qq.com',
+  domain: 'www.baidu.com',
 };
 
 export default ercpDomainMap;
