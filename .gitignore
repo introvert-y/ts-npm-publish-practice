@@ -5,3 +5,5 @@ node_modules/
 package-lock.json
 # 编译后的文件
 lib/
+# husky
+.husky/
