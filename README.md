@@ -2,8 +2,6 @@
 
 [版本历史](https://github.com/introvert-y/ts-npm-publish-practice/blob/master/CHANGELOG.md)
 
-<iframe width="100%" src="https://github.com/introvert-y/ts-npm-publish-practice/blob/master/CHANGELOG.md"></iframe>
-
 ## 由于 husky 升级调用形式有调整
 
 github 地址: https://github.com/typicode/husky
