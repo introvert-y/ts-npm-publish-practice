@@ -1,6 +1,6 @@
 {
   "name": "ts-npm-publish-practice",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "typescript编码转为js编码再发布",
   "main": "./lib/index.js",
   "scripts": {
