@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/introvert-y/ts-npm-publish-practice/compare/v1.2.0...v1.3.0) (2022-10-29)
+
+### Features
+
+- **src/:** delete src/test.js ([272b7ee](https://github.com/introvert-y/ts-npm-publish-practice/commit/272b7ee3b28ca7c781bd52053d9ff2293bc70e99))
+
 ## 1.2.0 (2022-10-29)
 
 ### Features
